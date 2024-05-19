@@ -1,0 +1,20 @@
+@import 'src/styles/vars.scss';
+
+.menu {
+  min-width: 264px;
+  height: min-content;
+  padding: 12px;
+  border: 1px solid $gray;
+  border-radius: 12px;
+
+  &__item {
+    padding: 12px;
+    cursor: pointer;
+
+    &.active {
+      background-color: $green;
+      color: $white;
+      border-radius: 12px;
+    }
+  }
+}
